@@ -6,7 +6,7 @@ With this sample app, you can:
 
 # Android
 
-https://user-images.githubusercontent.com/14072756/186028414-e3992e8f-bb1f-4def-b246-3258d4348221.mov
+https://user-images.githubusercontent.com/14072756/186028508-63a8356a-e6d8-4577-9f47-ce90c2f32c7c.mov
 
 
 # iOS
