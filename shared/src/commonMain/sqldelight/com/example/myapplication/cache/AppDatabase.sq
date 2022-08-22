@@ -1,0 +1,33 @@
+CREATE TABLE  hello(
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    date TEXT NOT NULL,
+    name TEXT NOT NULL,
+    project TEXT NOT NULL
+);
+
+selectAll:
+SELECT *
+FROM hello;
+
+insertHello:
+INSERT OR REPLACE
+INTO hello (
+    date,
+    name,
+    project
+) VALUES ( ? ,?,?);
+
+
+selectAddData:
+SELECT * FROM hello;
+
+DeleteSingleRecord:
+DELETE FROM hello WHERE id = ?;
+
+UpdateData:
+UPDATE hello
+SET date = ?,
+    name = ?,
+    project = ?
+WHERE
+    id = ?;
