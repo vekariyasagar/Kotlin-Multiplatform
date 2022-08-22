@@ -1,4 +1,4 @@
-# Kotlin-Multiplatform-demo
+# Kotlin-Multiplatform
 
 With this sample app, you can:
 - Add, Update, Delete records
